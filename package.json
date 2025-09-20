@@ -1,0 +1,43 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "a clone chatting app",
+  "keywords": [
+    "chat",
+    "secure",
+    "fast",
+    "smooth"
+  ],
+  "homepage": "https://github.com/Sanjeetkumarrao/chat-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Sanjeetkumarrao/chat-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjeetkumarrao/chat-backend.git"
+  },
+  "license": "ISC",
+  "author": "sanjeet kumar rao",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "prettier": "^3.6.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
